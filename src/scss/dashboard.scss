@@ -1,0 +1,46 @@
+@import "mixins";
+@import "variables";
+
+.db {
+
+}
+.db-header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.db-new {
+  box-sizing: border-box;
+  padding: 20px;
+  background: silver;
+}
+.db-create {
+  width: 160px;
+  height: 160px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  &:hover {
+    border: 1px solid darkgreen;
+  }
+}
+.db-table {
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+.db-list {
+  @include clear-list;
+  li {
+    padding: 5px 0;
+    &:hover {
+      background: darkseagreen;
+    }
+  }
+  a {
+    text-decoration: none;
+    color: #000000;
+  }
+}

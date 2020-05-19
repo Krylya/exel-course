@@ -1,2 +1,2 @@
 import './module'
-import './scss/layout.scss'
+import './scss/style.scss'
