@@ -4,7 +4,7 @@ export class Toolbar extends ExcelComponent {
     constructor(root) {
         super(root, {
             name: 'toolbar',
-            listeners: ['click']
+            listeners: ['click'],
         });
     }
     static className = 'excel-toolbar';
